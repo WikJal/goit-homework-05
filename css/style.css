@@ -387,7 +387,6 @@ ul {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
-  
 }
 .footer-social {
   gap: 16px;
@@ -447,4 +446,36 @@ p,
 ul {
   margin: 0;
   padding: 0;
+}
+.div-sub {
+  margin-left: 80px;
+}
+.subscribe {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.form {
+  display: flex;
+  gap: 24px;
+}
+.input-footer {
+  width: 264px;
+  height: 264px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  display: flex;
+}
+.input-footer::placeholder {
+  color: #ffffff;
 }
