@@ -586,6 +586,7 @@ ul {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  color: var(--color-etykieta);
 }
 .div-modal-label {
   position: relative;
@@ -702,4 +703,5 @@ ul {
 :root {
   --color-logo: #4d5ae5;
   --color-section1: #2e2f42;
+  --color-etykieta: #8e8f99;
 }
