@@ -49,7 +49,6 @@ img {
   text-align: center;
 }
 
-
 .header-trzy-name {
   color: #2e2f42;
   margin-bottom: 8px;
@@ -700,4 +699,8 @@ ul {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+:root{
+  --color-logo: #4d5ae5;
+--color-section1: #2e2f42;
 }
