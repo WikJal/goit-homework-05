@@ -651,7 +651,6 @@ ul {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--section-five);
 }
 .span-label {
   width: 16px;
@@ -700,7 +699,7 @@ ul {
   border: none;
   fill: #f4f4fd;
 }
-:root{
+:root {
   --color-logo: #4d5ae5;
---color-section1: #2e2f42;
+  --color-section1: #2e2f42;
 }
