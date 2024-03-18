@@ -628,17 +628,19 @@
     /--modal--/
 
     <div class="modal-container is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="button-modal" data-modal-close>
-          <svg class="button-modal-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1" />
+      <div class="modal-box">
+        <button type="button" class="button-close" data-modal-close>
+          <svg class="button-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
-        <p class="opis-modal">Leave your contacts and we will call you back</p>
+        <p class="paragraph-modal">
+          Leave your contacts and we will call you back
+        </p>
         <form>
-          <div class="div-form-modal">
+          <div class="div-modal-form">
             <label class="label-modal" for="user-name">Name</label>
-            <div class="div-label-modal">
+            <div class="div-modal-label">
               <input
                 id="user-name"
                 name="user-name"
@@ -646,14 +648,14 @@
                 class="input-modal"
                 required
               />
-              <svg class="modal-ikona" width="18" height="24">
-                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
           </div>
-          <div class="div-form-modal">
+          <div class="div-modal-form">
             <label class="label-modal" for="phone">Phone</label>
-            <div class="div-label-modal">
+            <div class="div-modal-label">
               <input
                 id="phone"
                 name="user-name"
@@ -661,14 +663,14 @@
                 class="input-modal"
                 required
               />
-              <svg class="modal-ikona" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
           </div>
-          <div class="div-form-modal">
+          <div class="div-modal-form">
             <label class="label-modal" for="user-name">Email</label>
-            <div class="div-label-modal">
+            <div class="div-modal-label">
               <input
                 id="email"
                 name="user-name"
@@ -676,43 +678,44 @@
                 class="input-modal"
                 required
               />
-              <svg class="modal-ikona" width="18" height="24">
-                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
 
-          <div class="div-modal-one">
+          <div class="div-modal-four">
             <label for="user-comment" class="label-modal"> Comment </label>
             <textarea
               id="user-comment"
               name="user-comment"
               placeholder="Text input"
-              class="modal-textarea"
-            >
-            </textarea>
+              class="textarea-modal"
+            ></textarea>
           </div>
-          <div class="div-modal-two">
+          <div class="div-modal-five">
             <input
               id="user-privacy"
               type="checkbox"
               value="true"
               name="user-privacy"
               class="visually-hidden modal-check"
+              required
             />
-            <label class="label-modal-one" for="user-privacy">
-              <span class="span-one">
+            <label class="label-modal-five" for="user-privacy">
+              <span class="span-label">
                 <svg width="10" height="8" class="modal-icon-check">
-                  <use href="./images/icons.svg#vector-6"></use>
+                  <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
               <a href="" class="link-modal"> Privacy Policy </a>
             </label>
           </div>
-          <button class="button-modal-three">Send</button>
+          <button class="button-modal-six">Send</button>
         </form>
       </div>
     </div>
+    <script src="./svgxuse.js"></script>
   </body>
 </html>
